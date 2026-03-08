@@ -1,0 +1,31 @@
+{
+  "exact_cache": {
+    "pon el aire a 22 grados en la sala": {
+      "tool_name": "climate_control",
+      "parameters": {
+        "action": "set_temp",
+        "room": "sala",
+        "temperature": 22.0
+      }
+    },
+    "muestra el estado de todos los dispositivos": {
+      "tool_name": "home_status",
+      "parameters": {
+        "scope": "all"
+      }
+    },
+    "consulta el estado general": {
+      "tool_name": "home_status",
+      "parameters": {
+        "scope": "all"
+      }
+    },
+    "cierra las persianas de la cocina": {
+      "tool_name": "blinds_control",
+      "parameters": {
+        "action": "close",
+        "room": "cocina"
+      }
+    }
+  }
+}
